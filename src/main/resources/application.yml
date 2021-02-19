@@ -1,0 +1,8 @@
+djl:
+  application-type: OBJECT_DETECTION
+  input-class: ai.djl.modality.cv.Image
+  output-class: ai.djl.modality.cv.output.DetectedObjects
+  model-filter:
+    size: 512
+  arguments:
+    threshold: 0.2
